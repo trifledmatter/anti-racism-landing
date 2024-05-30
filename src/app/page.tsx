@@ -1,8 +1,8 @@
-import IconCloud from "@/components/magic/icon-cloud";
+// import IconCloud from "@/components/magic/icon-cloud";
 import TextRevealByWord from "@/components/magic/text-reveal";
 import WavyText from "@/components/magic/wavy-text";
 import WordRotate from "@/components/magic/word-rotate";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 
