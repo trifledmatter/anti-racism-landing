@@ -112,42 +112,47 @@ export default function Home() {
             <h2 className="text-3xl">Role of Education and Awareness</h2>
           </div>
           <TypingAnimation text="Education and awareness are key to ending racism. Learning about its history and effects helps us understand why diversity and inclusion matter. Talking about these issues and having educational programs can help build a fairer society." className="mt-6 text-white/60 text-start text-xl font-light" duration={5} />
-        </div>
 
-        {/* Timeline */}
-        <div className="mt-6 text-white">
-          <h2 className="text-3xl">A non-extensive timeline of anti-racism efforts in the U.S. and across the globe</h2>
+        <div className="w-full mt-16 opacity-0" />
+          {/* Timeline */}
+        <div className="mt-24 text-white w-full">
+          <h2 className="text-5xl max-w-[1000px]">A non-extensive timeline of anti-racism efforts in the U.S. and across the globe</h2>
+          <hr className="w-full mt-12 opacity-30" />
+
         </div>
         <TypingAnimation
           text="1865: The 13th Amendment ends slavery in the U.S."
-          className="mt-6 text-white/60 text-start text-xl font-light"
+          className="mt-6 text-white/60 text-start text-2xl font-light"
           duration={5}
         />
         <TypingAnimation
           text="1948: The United Nations adopts the Universal Declaration of Human Rights."
-          className="mt-6 text-white/60 text-start text-xl font-light"
+          className="mt-2 text-white/60 text-start text-2xl font-light"
           duration={5}
         />
         <TypingAnimation
           text="1964: The Civil Rights Act is passed in the U.S., banning discrimination based on race, color, religion, sex, or national origin."
-          className="mt-6 text-white/60 text-start text-xl font-light"
+          className="mt-2 text-white/60 text-start text-2xl font-light"
           duration={5}
         />
         <TypingAnimation
           text="1994: Apartheid ends in South Africa, and Nelson Mandela becomes president."
-          className="mt-6 text-white/60 text-start text-xl font-light"
+          className="mt-2 text-white/60 text-start text-2xl font-light"
           duration={5}
         />
         <TypingAnimation
           text="2020: Global Black Lives Matter protests demand an end to police brutality and systemic racism."
-          className="mt-6 text-white/60 text-start text-xl font-light"
+          className="mt-2 text-white/60 text-start text-2xl font-light"
           duration={5}
         />
         <TypingAnimation
           text="2024: Ongoing efforts worldwide to promote racial equality through education, policy changes, and advocacy."
-          className="mt-6 text-white/60 text-start text-xl font-light"
+          className="mt-2 text-white/60 text-start text-2xl font-light"
           duration={5}
         />
+        </div>
+
+        
       </section>
 
 
