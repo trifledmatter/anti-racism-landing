@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <div className="flex flex-col min-h-screen w-full bg-cover bg-center bg-no-repeat p-4 transition-all duration-200 ease-in-out bg-[url('http://localhost:3000/background.png')] ">
+      <div className="flex flex-col min-h-screen w-full bg-cover bg-center bg-no-repeat p-4 transition-all duration-200 ease-in-out bg-[url('https://anti-racism-landing.vercel.app/background.png')] ">
 
         <div id="nav" className="flex justify-between py-4 px-8 items-center">
           <div>
