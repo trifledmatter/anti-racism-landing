@@ -88,33 +88,35 @@ export default function Home() {
       </div>
       <section id="history">
         <div className="px-12 py-12 overflow-hidden flex flex-col justify-start items-start">
-          <div className="flex flex-col gap-y-3 w-full">
+          <div className="flex flex-col gap-y-3 py-12 w-full">
             <TypingAnimation text="History" className="text-5xl text-start my-4 text-white"/>
 
             <hr className="border border-white/20 w-full" />
           </div>
 
           {/* Introduction to the history of racism */}
-
-          <TypingAnimation text="The history of racism is deeply rooted in the fabric of societies around the world. It has shaped and been shaped by social, economic, and political forces, leading to systemic inequalities that persist today. Understanding this history is crucial to addressing and dismantling racism in all its forms." className="mt-6 text-white text-start text-lg" duration={5}/>
+          <div className="mt-6 text-white">
+            <h2 className="text-3xl">A breif history of racism</h2>
+          </div>
+          <TypingAnimation text="The history of racism is deeply rooted in the fabric of societies around the world. It has shaped and been shaped by social, economic, and political forces, leading to systemic inequalities that persist today. Understanding this history is crucial to addressing and dismantling racism in all its forms." className="mt-6 text-white/60 text-start text-xl font-light" duration={5}/>
 
 
           {/* Historical Events and Figures */}
           <div className="mt-6 text-white">
             <h2 className="text-3xl">Historical Events and Figures</h2>
           </div>
-          <TypingAnimation text="Significant events such as the Civil Rights Movement in the United States, the abolition of apartheid in South Africa, and the ongoing struggles of Indigenous peoples globally highlight the fight against racial injustice. Key figures like Martin Luther King Jr., Nelson Mandela, and Malala Yousafzai have played pivotal roles in advocating for equality and human rights." className="mt-6 text-white text-start text-lg" duration={5}/>
+          <TypingAnimation text="Significant events such as the Civil Rights Movement in the United States, the abolition of apartheid in South Africa, and the ongoing struggles of Indigenous peoples globally highlight the fight against racial injustice. Key figures like Martin Luther King Jr., Nelson Mandela, and Malala Yousafzai have played pivotal roles in advocating for equality and human rights." className="mt-6 text-white/60 text-start text-xl font-light" duration={5}/>
 
           {/* Role of education and awareness */}
           <div className="mt-6 text-white">
             <h2 className="text-3xl">Role of Education and Awareness</h2>
           </div>
-          <TypingAnimation text="Education and awareness are fundamental in combating racism. By learning about the history and impact of racism, individuals and communities can better understand the importance of diversity and inclusion. Promoting open dialogues and educational programs can foster a more inclusive and equitable society." className="mt-6 text-white text-start text-lg" duration={5}/>
+          <TypingAnimation text="Education and awareness are fundamental in combating racism. By learning about the history and impact of racism, individuals and communities can better understand the importance of diversity and inclusion. Promoting open dialogues and educational programs can foster a more inclusive and equitable society." className="mt-6 text-white/60 text-start text-xl font-light" duration={5}/>
         </div>
       </section>
 
 
-      <div className="px-12 overflow-hidden flex flex-col justify-center items-center gap-y-4">
+      <div className="px-12 my-96 overflow-hidden flex flex-col justify-center items-center gap-y-4">
         <span className="text-xl text-white">
           STAND UP FOR WHAT IS RIGHT
         </span>
