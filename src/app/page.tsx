@@ -89,7 +89,7 @@ export default function Home() {
       <section id="history">
         <div className="px-12 py-12 overflow-hidden flex flex-col justify-start items-start">
           <div className="flex flex-col gap-y-3 py-12 w-full">
-            <TypingAnimation text="History" className="text-5xl text-start my-4 text-white"/>
+            <TypingAnimation text="History" className="text-5xl text-start my-4 text-white" />
 
             <hr className="border border-white/20 w-full" />
           </div>
@@ -98,21 +98,56 @@ export default function Home() {
           <div className="mt-6 text-white">
             <h2 className="text-3xl">A breif history of racism</h2>
           </div>
-          <TypingAnimation text="The history of racism is deeply rooted in the fabric of societies around the world. It has shaped and been shaped by social, economic, and political forces, leading to systemic inequalities that persist today. Understanding this history is crucial to addressing and dismantling racism in all its forms." className="mt-6 text-white/60 text-start text-xl font-light" duration={5}/>
+          <TypingAnimation text="Racism has been a part of society for a long time. It's shaped how people live, work, and are treated. Understanding this history helps us fight against it. Racism has caused unfair treatment and suffering for many people." className="mt-6 text-white/60 text-start text-xl font-light" duration={5} />
 
 
           {/* Historical Events and Figures */}
           <div className="mt-6 text-white">
             <h2 className="text-3xl">Historical Events and Figures</h2>
           </div>
-          <TypingAnimation text="Significant events such as the Civil Rights Movement in the United States, the abolition of apartheid in South Africa, and the ongoing struggles of Indigenous peoples globally highlight the fight against racial injustice. Key figures like Martin Luther King Jr., Nelson Mandela, and Malala Yousafzai have played pivotal roles in advocating for equality and human rights." className="mt-6 text-white/60 text-start text-xl font-light" duration={5}/>
+          <TypingAnimation text="Big events like the Civil Rights Movement in the U.S., ending apartheid in South Africa, and the struggles of Indigenous peoples show the fight against racism, while leaders like Martin Luther King Jr., Nelson Mandela, and Malala Yousafzai have fought for equality and inspired others." className="mt-6 text-white/60 text-start text-xl font-light" duration={5} />
 
           {/* Role of education and awareness */}
           <div className="mt-6 text-white">
             <h2 className="text-3xl">Role of Education and Awareness</h2>
           </div>
-          <TypingAnimation text="Education and awareness are fundamental in combating racism. By learning about the history and impact of racism, individuals and communities can better understand the importance of diversity and inclusion. Promoting open dialogues and educational programs can foster a more inclusive and equitable society." className="mt-6 text-white/60 text-start text-xl font-light" duration={5}/>
+          <TypingAnimation text="Education and awareness are key to ending racism. Learning about its history and effects helps us understand why diversity and inclusion matter. Talking about these issues and having educational programs can help build a fairer society." className="mt-6 text-white/60 text-start text-xl font-light" duration={5} />
         </div>
+
+        {/* Timeline */}
+        <div className="mt-6 text-white">
+          <h2 className="text-3xl">A non-extensive timeline of anti-racism efforts in the U.S. and across the globe</h2>
+        </div>
+        <TypingAnimation
+          text="1865: The 13th Amendment ends slavery in the U.S."
+          className="mt-6 text-white/60 text-start text-xl font-light"
+          duration={5}
+        />
+        <TypingAnimation
+          text="1948: The United Nations adopts the Universal Declaration of Human Rights."
+          className="mt-6 text-white/60 text-start text-xl font-light"
+          duration={5}
+        />
+        <TypingAnimation
+          text="1964: The Civil Rights Act is passed in the U.S., banning discrimination based on race, color, religion, sex, or national origin."
+          className="mt-6 text-white/60 text-start text-xl font-light"
+          duration={5}
+        />
+        <TypingAnimation
+          text="1994: Apartheid ends in South Africa, and Nelson Mandela becomes president."
+          className="mt-6 text-white/60 text-start text-xl font-light"
+          duration={5}
+        />
+        <TypingAnimation
+          text="2020: Global Black Lives Matter protests demand an end to police brutality and systemic racism."
+          className="mt-6 text-white/60 text-start text-xl font-light"
+          duration={5}
+        />
+        <TypingAnimation
+          text="2024: Ongoing efforts worldwide to promote racial equality through education, policy changes, and advocacy."
+          className="mt-6 text-white/60 text-start text-xl font-light"
+          duration={5}
+        />
       </section>
 
 
@@ -123,17 +158,17 @@ export default function Home() {
         <hr className="border border-white/20 w-[100px]" />
 
 
-        <Image src={"/english_creative_text_visual.png"} alt="visual/multimedia creative text" width={1920 / 2} height={1080 / 2} className="rounded-3xl" />
+        <Image src={"/english_creative_text_visual.png"} alt="visual/multimedia creative text" width={1400} height={1400} className="rounded-3xl" />
       </div>
 
       {/* Call to action */}
       <section id="call-to-action" className="px-12 py-12 mt-12 flex flex-col justify-center items-center bg-red-950/30 text-white">
         {/* <h2 className="text-4xl mb-4">Join the Movement</h2> */}
-        <TypingAnimation text="Join the Movement" className="text-5xl my-4"/>
+        <TypingAnimation text="Join the Movement" className="text-5xl my-4" />
         <p className="text-xl mb-6 text-center">
-          Take a stand against racism. Get involved in your community, educate yourself and others, and advocate for policies that promote equality and justice. Together, we can create a world where everyone is treated with respect and dignity.
+          Join the fight against racism by participating in community initiatives, learning about racial issues, and supporting policies that ensure equality and justice for all. Together, we can make a big impact and create a more inclusive society.
         </p>
-        <button className="bg-transparent border border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-black hover:scale-105 transition-all duration-300 ">
+        <button className="bg-transparent border border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-black hover:scale-105 transition-all duration-300 " onClick={() => { window.location.assign('https://racism.com/') }}>
           Get Involved
         </button>
       </section>
